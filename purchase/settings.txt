@@ -1,0 +1,34 @@
+Credentials for olukai.com. Will default to set credentials in code if these settings are empty.
+
+olukaiUS
+{
+    host: olukai.com
+    domain: olukai-store.myshopify.com
+    key: 2h8ngj2nd9a3mhayfsw9n8ntsxqvvvdsns1id9mddah067wpc2nu1jpfxd39hbx9
+    secret: qr6vqxj8bpwlgwq5nf1h74dlu7p2iw0ulndb67e2y7dxqysh9egg8czxyzbdg37y
+    token: 614d6164-71c0-11e9-a986-0a580a2037f6
+}
+olukaiVIP
+{
+    host: vip.olukai.com
+    domain: vip-olukai.myshopify.com
+    key: 2h8ngj2nd9a3mhayfsw9n8ntsxqvvvdsns1id9mddah067wpc2nu1jpfxd39hbx9
+    secret: qr6vqxj8bpwlgwq5nf1h74dlu7p2iw0ulndb67e2y7dxqysh9egg8czxyzbdg37y
+    token: 614d6164-71c0-11e9-a986-0a580a2037f6
+}
+olukaiCA
+{
+    host: olukai.ca
+    domain: ca-olukai.myshopify.com
+    key: 2h8ngj2nd9a3mhayfsw9n8ntsxqvvvdsns1id9mddah067wpc2nu1jpfxd39hbx9
+    secret: qr6vqxj8bpwlgwq5nf1h74dlu7p2iw0ulndb67e2y7dxqysh9egg8czxyzbdg37y
+    token: 614d6164-71c0-11e9-a986-0a580a2037f6
+}
+olukaiDEV
+{
+    host: olukai-store-dev.myshopify.com
+    domain: olukai-store-dev.myshopify.com
+    key: d0quzy3kbq248ji4das138va8y5hjg4gvzoe102bit7jm6w8p6e5acksgosssy88
+    secret: 2nwz7b3zay8swesxe5qcnocjgzty4c82x168pkv36cqoqrowgb5b9lewln4gox4q
+    token: 8036bb3e-6671-11e9-9b98-0a580a2012dc
+}

@@ -1,0 +1,1856 @@
+{
+    "order": {
+      "id": 5253803868259,
+      "admin_graphql_api_id": "gid://shopify/Order/5253803868259",
+      "app_id": 580111,
+      "browser_ip": "184.177.168.62",
+      "buyer_accepts_marketing": false,
+      "cancel_reason": null,
+      "cancelled_at": null,
+      "cart_token": "1a118b26038d46765e9e2d2e923258b5",
+      "checkout_id": 26957306658915,
+      "checkout_token": "241171a27a8d12638ce17fbebe8fa5cf",
+      "client_details": {
+        "accept_language": "en-US,en;q=0.9",
+        "browser_height": 929,
+        "browser_ip": "184.177.168.62",
+        "browser_width": 1920,
+        "session_hash": null,
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.67"
+      },
+      "closed_at": "2023-07-12T07:00:21-07:00",
+      "confirmed": true,
+      "contact_email": "ben.mcnertney@outlook.com",
+      "created_at": "2023-07-11T08:37:12-07:00",
+      "currency": "USD",
+      "current_subtotal_price": "0.00",
+      "current_subtotal_price_set": {
+        "shop_money": {
+          "amount": "0.00",
+          "currency_code": "USD"
+        },
+        "presentment_money": {
+          "amount": "0.00",
+          "currency_code": "USD"
+        }
+      },
+      "current_total_discounts": "0.00",
+      "current_total_discounts_set": {
+        "shop_money": {
+          "amount": "0.00",
+          "currency_code": "USD"
+        },
+        "presentment_money": {
+          "amount": "0.00",
+          "currency_code": "USD"
+        }
+      },
+      "current_total_duties_set": null,
+      "current_total_price": "20.00",
+      "current_total_price_set": {
+        "shop_money": {
+          "amount": "20.00",
+          "currency_code": "USD"
+        },
+        "presentment_money": {
+          "amount": "20.00",
+          "currency_code": "USD"
+        }
+      },
+      "current_total_tax": "0.00",
+      "current_total_tax_set": {
+        "shop_money": {
+          "amount": "0.00",
+          "currency_code": "USD"
+        },
+        "presentment_money": {
+          "amount": "0.00",
+          "currency_code": "USD"
+        }
+      },
+      "customer_locale": "en-US",
+      "device_id": null,
+      "discount_codes": [],
+      "email": "ben.mcnertney@outlook.com",
+      "estimated_taxes": false,
+      "financial_status": "partially_refunded",
+      "fulfillment_status": "fulfilled",
+      "gateway": "shopify_payments",
+      "landing_site": "/collections/mens-shoes?gclid=EAIaIQobChMImImOiouCgAMVDxWtBh3BOgW3EAAYASABEgKh1fD_BwE",
+      "landing_site_ref": null,
+      "location_id": null,
+      "name": "#W2592578",
+      "note": "2023-07-17 00:59 UTC\nReturn for exchange started\n10445-6Z6Z-9.5 (1)\n10507-6363-9.5 (1)\n\n2023-07-18 19:46 UTC\nRefund issued\n\n2023-07-18 19:46 UTC\nExchange created for Wai‘alae - Dark Wood (#W2609440)",
+      "note_attributes": [],
+      "number": 2591578,
+      "order_number": 2592578,
+      "order_status_url": "https://olukai.com/1592295523/orders/6db0046f38d7ad79d3014b70a613adcf/authenticate?key=394a4d43a1f43f1dfb88bf3cbb624d75",
+      "original_total_duties_set": null,
+      "payment_gateway_names": [
+        "shopify_payments"
+      ],
+      "phone": null,
+      "presentment_currency": "USD",
+      "processed_at": "2023-07-11T08:37:11-07:00",
+      "processing_method": "direct",
+      "reference": null,
+      "referring_site": "https://www.google.com/",
+      "source_identifier": null,
+      "source_name": "web",
+      "source_url": null,
+      "subtotal_price": "300.00",
+      "subtotal_price_set": {
+        "shop_money": {
+          "amount": "300.00",
+          "currency_code": "USD"
+        },
+        "presentment_money": {
+          "amount": "300.00",
+          "currency_code": "USD"
+        }
+      },
+      "tags": "HappyRefund, HappyReturns, HR61f4af17-7100-4d96-92ba-18d322ce2be8, NRI:Allocated, NRI:Released",
+      "tax_lines": [
+        {
+          "price": "18.00",
+          "rate": 0.06,
+          "title": "CA STATE TAX",
+          "price_set": {
+            "shop_money": {
+              "amount": "18.00",
+              "currency_code": "USD"
+            },
+            "presentment_money": {
+              "amount": "18.00",
+              "currency_code": "USD"
+            }
+          },
+          "channel_liable": false
+        },
+        {
+          "price": "2.25",
+          "rate": 0.0075,
+          "title": "CA CITY TAX",
+          "price_set": {
+            "shop_money": {
+              "amount": "2.25",
+              "currency_code": "USD"
+            },
+            "presentment_money": {
+              "amount": "2.25",
+              "currency_code": "USD"
+            }
+          },
+          "channel_liable": false
+        },
+        {
+          "price": "3.00",
+          "rate": 0.01,
+          "title": "SAN BERNARDINO CO LOCAL TAX SL",
+          "price_set": {
+            "shop_money": {
+              "amount": "3.00",
+              "currency_code": "USD"
+            },
+            "presentment_money": {
+              "amount": "3.00",
+              "currency_code": "USD"
+            }
+          },
+          "channel_liable": false
+        },
+        {
+          "price": "0.75",
+          "rate": 0.0025,
+          "title": "CA COUNTY TAX",
+          "price_set": {
+            "shop_money": {
+              "amount": "0.75",
+              "currency_code": "USD"
+            },
+            "presentment_money": {
+              "amount": "0.75",
+              "currency_code": "USD"
+            }
+          },
+          "channel_liable": false
+        },
+        {
+          "price": "1.50",
+          "rate": 0.005,
+          "title": "SAN DIEGO COUNTY DISTRICT TAX SP",
+          "price_set": {
+            "shop_money": {
+              "amount": "1.50",
+              "currency_code": "USD"
+            },
+            "presentment_money": {
+              "amount": "1.50",
+              "currency_code": "USD"
+            }
+          },
+          "channel_liable": false
+        }
+      ],
+      "taxes_included": false,
+      "test": false,
+      "token": "6db0046f38d7ad79d3014b70a613adcf",
+      "total_discounts": "0.00",
+      "total_discounts_set": {
+        "shop_money": {
+          "amount": "0.00",
+          "currency_code": "USD"
+        },
+        "presentment_money": {
+          "amount": "0.00",
+          "currency_code": "USD"
+        }
+      },
+      "total_line_items_price": "300.00",
+      "total_line_items_price_set": {
+        "shop_money": {
+          "amount": "300.00",
+          "currency_code": "USD"
+        },
+        "presentment_money": {
+          "amount": "300.00",
+          "currency_code": "USD"
+        }
+      },
+      "total_outstanding": "0.00",
+      "total_price": "345.50",
+      "total_price_set": {
+        "shop_money": {
+          "amount": "345.50",
+          "currency_code": "USD"
+        },
+        "presentment_money": {
+          "amount": "345.50",
+          "currency_code": "USD"
+        }
+      },
+      "total_price_usd": "345.50",
+      "total_shipping_price_set": {
+        "shop_money": {
+          "amount": "20.00",
+          "currency_code": "USD"
+        },
+        "presentment_money": {
+          "amount": "20.00",
+          "currency_code": "USD"
+        }
+      },
+      "total_tax": "25.50",
+      "total_tax_set": {
+        "shop_money": {
+          "amount": "25.50",
+          "currency_code": "USD"
+        },
+        "presentment_money": {
+          "amount": "25.50",
+          "currency_code": "USD"
+        }
+      },
+      "total_tip_received": "0.00",
+      "total_weight": 1342,
+      "updated_at": "2023-07-18T12:46:40-07:00",
+      "user_id": null,
+      "billing_address": {
+        "first_name": "Ben",
+        "address1": "5160 Randlett Drive",
+        "phone": "(858) 761-5419",
+        "city": "La Mesa",
+        "zip": "91942",
+        "province": "California",
+        "country": "United States",
+        "last_name": "McNertney",
+        "address2": "",
+        "company": "",
+        "latitude": null,
+        "longitude": null,
+        "name": "Ben McNertney",
+        "country_code": "US",
+        "province_code": "CA"
+      },
+      "customer": {
+        "id": 5555696566371,
+        "email": "ben.mcnertney@outlook.com",
+        "accepts_marketing": true,
+        "created_at": "2021-10-26T22:04:06-07:00",
+        "updated_at": "2023-07-18T12:46:39-07:00",
+        "first_name": "Ben",
+        "last_name": "McNertney",
+        "state": "enabled",
+        "note": "phonenumber: (858) 761-5419\nbirthday: 1976-07-28\ngender: men",
+        "verified_email": true,
+        "multipass_identifier": null,
+        "tax_exempt": false,
+        "phone": null,
+        "email_marketing_consent": {
+          "state": "subscribed",
+          "opt_in_level": "single_opt_in",
+          "consent_updated_at": "2021-10-26T22:04:07-07:00"
+        },
+        "sms_marketing_consent": null,
+        "tags": "loyalty_member, Subscribed, tier_1",
+        "currency": "USD",
+        "accepts_marketing_updated_at": "2021-10-26T22:04:07-07:00",
+        "marketing_opt_in_level": "single_opt_in",
+        "tax_exemptions": [],
+        "admin_graphql_api_id": "gid://shopify/Customer/5555696566371",
+        "default_address": {
+          "id": 7912726560867,
+          "customer_id": 5555696566371,
+          "first_name": "Ben",
+          "last_name": "McNertney",
+          "company": "",
+          "address1": "5160 Randlett Drive",
+          "address2": "",
+          "city": "La Mesa",
+          "province": "California",
+          "country": "United States",
+          "zip": "91942",
+          "phone": "(858) 761-5419",
+          "name": "Ben McNertney",
+          "province_code": "CA",
+          "country_code": "US",
+          "country_name": "United States",
+          "default": true
+        }
+      },
+      "discount_applications": [],
+      "fulfillments": [
+        {
+          "id": 4727803183203,
+          "admin_graphql_api_id": "gid://shopify/Fulfillment/4727803183203",
+          "created_at": "2023-07-12T07:00:20-07:00",
+          "location_id": 61005725795,
+          "name": "#W2592578.1",
+          "order_id": 5253803868259,
+          "origin_address": {},
+          "receipt": {},
+          "service": "manual",
+          "shipment_status": "delivered",
+          "status": "success",
+          "tracking_company": "FedEx",
+          "tracking_number": "781003341000",
+          "tracking_numbers": [
+            "781003341000"
+          ],
+          "tracking_url": "https://www.fedex.com/fedextrack/?trknbr=781003341000",
+          "tracking_urls": [
+            "https://www.fedex.com/fedextrack/?trknbr=781003341000"
+          ],
+          "updated_at": "2023-07-13T10:01:46-07:00",
+          "line_items": [
+            {
+              "id": 13389408108643,
+              "admin_graphql_api_id": "gid://shopify/LineItem/13389408108643",
+              "destination_location": {
+                "id": 3128072568931,
+                "country_code": "US",
+                "province_code": "CA",
+                "name": "Ben McNertney",
+                "address1": "5160 Randlett Drive",
+                "address2": "",
+                "city": "La Mesa",
+                "zip": "91942"
+              },
+              "fulfillable_quantity": 0,
+              "fulfillment_service": "manual",
+              "fulfillment_status": "fulfilled",
+              "gift_card": false,
+              "grams": 816,
+              "name": "Lae‘ahi Lī - Husk - Husk / 9.5",
+              "origin_location": {
+                "id": 1058821177443,
+                "country_code": "US",
+                "province_code": "CA",
+                "name": "OluKai",
+                "address1": "15559 Flight Avenue",
+                "address2": "",
+                "city": "Chino",
+                "zip": "91710"
+              },
+              "pre_tax_price": "140.00",
+              "pre_tax_price_set": {
+                "shop_money": {
+                  "amount": "140.00",
+                  "currency_code": "USD"
+                },
+                "presentment_money": {
+                  "amount": "140.00",
+                  "currency_code": "USD"
+                }
+              },
+              "price": "140.00",
+              "price_set": {
+                "shop_money": {
+                  "amount": "140.00",
+                  "currency_code": "USD"
+                },
+                "presentment_money": {
+                  "amount": "140.00",
+                  "currency_code": "USD"
+                }
+              },
+              "product_exists": true,
+              "product_id": 6702203043939,
+              "properties": [
+                {
+                  "name": "_upc",
+                  "value": "883956441826"
+                },
+                {
+                  "name": "_quick_add",
+                  "value": true
+                },
+                {
+                  "name": "_birthday_gift",
+                  "value": false
+                },
+                {
+                  "name": "_compare_at_price",
+                  "value": null
+                },
+                {
+                  "name": "_anniversary_gift",
+                  "value": false
+                }
+              ],
+              "quantity": 1,
+              "requires_shipping": true,
+              "sku": "10445-6Z6Z-9.5",
+              "tax_code": "PC040147",
+              "taxable": true,
+              "title": "Lae‘ahi Lī - Husk",
+              "total_discount": "0.00",
+              "total_discount_set": {
+                "shop_money": {
+                  "amount": "0.00",
+                  "currency_code": "USD"
+                },
+                "presentment_money": {
+                  "amount": "0.00",
+                  "currency_code": "USD"
+                }
+              },
+              "variant_id": 39744719061091,
+              "variant_inventory_management": "shopify",
+              "variant_title": "Husk / 9.5",
+              "vendor": "OluKai",
+              "tax_lines": [
+                {
+                  "channel_liable": false,
+                  "price": "8.40",
+                  "price_set": {
+                    "shop_money": {
+                      "amount": "8.40",
+                      "currency_code": "USD"
+                    },
+                    "presentment_money": {
+                      "amount": "8.40",
+                      "currency_code": "USD"
+                    }
+                  },
+                  "rate": 0.06,
+                  "title": "CA STATE TAX"
+                },
+                {
+                  "channel_liable": false,
+                  "price": "0.35",
+                  "price_set": {
+                    "shop_money": {
+                      "amount": "0.35",
+                      "currency_code": "USD"
+                    },
+                    "presentment_money": {
+                      "amount": "0.35",
+                      "currency_code": "USD"
+                    }
+                  },
+                  "rate": 0.0025,
+                  "title": "CA COUNTY TAX"
+                },
+                {
+                  "channel_liable": false,
+                  "price": "1.05",
+                  "price_set": {
+                    "shop_money": {
+                      "amount": "1.05",
+                      "currency_code": "USD"
+                    },
+                    "presentment_money": {
+                      "amount": "1.05",
+                      "currency_code": "USD"
+                    }
+                  },
+                  "rate": 0.0075,
+                  "title": "CA CITY TAX"
+                },
+                {
+                  "channel_liable": false,
+                  "price": "0.70",
+                  "price_set": {
+                    "shop_money": {
+                      "amount": "0.70",
+                      "currency_code": "USD"
+                    },
+                    "presentment_money": {
+                      "amount": "0.70",
+                      "currency_code": "USD"
+                    }
+                  },
+                  "rate": 0.005,
+                  "title": "SAN DIEGO COUNTY DISTRICT TAX SP"
+                },
+                {
+                  "channel_liable": false,
+                  "price": "1.40",
+                  "price_set": {
+                    "shop_money": {
+                      "amount": "1.40",
+                      "currency_code": "USD"
+                    },
+                    "presentment_money": {
+                      "amount": "1.40",
+                      "currency_code": "USD"
+                    }
+                  },
+                  "rate": 0.01,
+                  "title": "SAN BERNARDINO CO LOCAL TAX SL"
+                }
+              ],
+              "duties": [],
+              "discount_allocations": []
+            },
+            {
+              "id": 13389408141411,
+              "admin_graphql_api_id": "gid://shopify/LineItem/13389408141411",
+              "destination_location": {
+                "id": 3128072568931,
+                "country_code": "US",
+                "province_code": "CA",
+                "name": "Ben McNertney",
+                "address1": "5160 Randlett Drive",
+                "address2": "",
+                "city": "La Mesa",
+                "zip": "91942"
+              },
+              "fulfillable_quantity": 0,
+              "fulfillment_service": "manual",
+              "fulfillment_status": "fulfilled",
+              "gift_card": false,
+              "grams": 526,
+              "name": "Wai‘alae - Dark Wood - Dark Wood / 9.5",
+              "origin_location": {
+                "id": 1058821177443,
+                "country_code": "US",
+                "province_code": "CA",
+                "name": "OluKai",
+                "address1": "15559 Flight Avenue",
+                "address2": "",
+                "city": "Chino",
+                "zip": "91710"
+              },
+              "pre_tax_price": "160.00",
+              "pre_tax_price_set": {
+                "shop_money": {
+                  "amount": "160.00",
+                  "currency_code": "USD"
+                },
+                "presentment_money": {
+                  "amount": "160.00",
+                  "currency_code": "USD"
+                }
+              },
+              "price": "160.00",
+              "price_set": {
+                "shop_money": {
+                  "amount": "160.00",
+                  "currency_code": "USD"
+                },
+                "presentment_money": {
+                  "amount": "160.00",
+                  "currency_code": "USD"
+                }
+              },
+              "product_exists": true,
+              "product_id": 6709524299875,
+              "properties": [
+                {
+                  "name": "_upc",
+                  "value": "883956439182"
+                },
+                {
+                  "name": "_birthday_gift",
+                  "value": false
+                },
+                {
+                  "name": "_compare_at_price",
+                  "value": null
+                },
+                {
+                  "name": "_pdp",
+                  "value": true
+                },
+                {
+                  "name": "_anniversary_gift",
+                  "value": false
+                }
+              ],
+              "quantity": 1,
+              "requires_shipping": true,
+              "sku": "10507-6363-9.5",
+              "tax_code": "PC040147",
+              "taxable": true,
+              "title": "Wai‘alae - Dark Wood",
+              "total_discount": "0.00",
+              "total_discount_set": {
+                "shop_money": {
+                  "amount": "0.00",
+                  "currency_code": "USD"
+                },
+                "presentment_money": {
+                  "amount": "0.00",
+                  "currency_code": "USD"
+                }
+              },
+              "variant_id": 39762741657699,
+              "variant_inventory_management": "shopify",
+              "variant_title": "Dark Wood / 9.5",
+              "vendor": "OluKai",
+              "tax_lines": [
+                {
+                  "channel_liable": false,
+                  "price": "9.60",
+                  "price_set": {
+                    "shop_money": {
+                      "amount": "9.60",
+                      "currency_code": "USD"
+                    },
+                    "presentment_money": {
+                      "amount": "9.60",
+                      "currency_code": "USD"
+                    }
+                  },
+                  "rate": 0.06,
+                  "title": "CA STATE TAX"
+                },
+                {
+                  "channel_liable": false,
+                  "price": "0.40",
+                  "price_set": {
+                    "shop_money": {
+                      "amount": "0.40",
+                      "currency_code": "USD"
+                    },
+                    "presentment_money": {
+                      "amount": "0.40",
+                      "currency_code": "USD"
+                    }
+                  },
+                  "rate": 0.0025,
+                  "title": "CA COUNTY TAX"
+                },
+                {
+                  "channel_liable": false,
+                  "price": "1.20",
+                  "price_set": {
+                    "shop_money": {
+                      "amount": "1.20",
+                      "currency_code": "USD"
+                    },
+                    "presentment_money": {
+                      "amount": "1.20",
+                      "currency_code": "USD"
+                    }
+                  },
+                  "rate": 0.0075,
+                  "title": "CA CITY TAX"
+                },
+                {
+                  "channel_liable": false,
+                  "price": "0.80",
+                  "price_set": {
+                    "shop_money": {
+                      "amount": "0.80",
+                      "currency_code": "USD"
+                    },
+                    "presentment_money": {
+                      "amount": "0.80",
+                      "currency_code": "USD"
+                    }
+                  },
+                  "rate": 0.005,
+                  "title": "SAN DIEGO COUNTY DISTRICT TAX SP"
+                },
+                {
+                  "channel_liable": false,
+                  "price": "1.60",
+                  "price_set": {
+                    "shop_money": {
+                      "amount": "1.60",
+                      "currency_code": "USD"
+                    },
+                    "presentment_money": {
+                      "amount": "1.60",
+                      "currency_code": "USD"
+                    }
+                  },
+                  "rate": 0.01,
+                  "title": "SAN BERNARDINO CO LOCAL TAX SL"
+                }
+              ],
+              "duties": [],
+              "discount_allocations": []
+            }
+          ]
+        }
+      ],
+      "line_items": [
+        {
+          "id": 13389408108643,
+          "admin_graphql_api_id": "gid://shopify/LineItem/13389408108643",
+          "destination_location": {
+            "id": 3128072568931,
+            "country_code": "US",
+            "province_code": "CA",
+            "name": "Ben McNertney",
+            "address1": "5160 Randlett Drive",
+            "address2": "",
+            "city": "La Mesa",
+            "zip": "91942"
+          },
+          "fulfillable_quantity": 0,
+          "fulfillment_service": "manual",
+          "fulfillment_status": "fulfilled",
+          "gift_card": false,
+          "grams": 816,
+          "name": "Lae‘ahi Lī - Husk - Husk / 9.5",
+          "origin_location": {
+            "id": 1058821177443,
+            "country_code": "US",
+            "province_code": "CA",
+            "name": "OluKai",
+            "address1": "15559 Flight Avenue",
+            "address2": "",
+            "city": "Chino",
+            "zip": "91710"
+          },
+          "pre_tax_price": "140.00",
+          "pre_tax_price_set": {
+            "shop_money": {
+              "amount": "140.00",
+              "currency_code": "USD"
+            },
+            "presentment_money": {
+              "amount": "140.00",
+              "currency_code": "USD"
+            }
+          },
+          "price": "140.00",
+          "price_set": {
+            "shop_money": {
+              "amount": "140.00",
+              "currency_code": "USD"
+            },
+            "presentment_money": {
+              "amount": "140.00",
+              "currency_code": "USD"
+            }
+          },
+          "product_exists": true,
+          "product_id": 6702203043939,
+          "properties": [
+            {
+              "name": "_upc",
+              "value": "883956441826"
+            },
+            {
+              "name": "_quick_add",
+              "value": true
+            },
+            {
+              "name": "_birthday_gift",
+              "value": false
+            },
+            {
+              "name": "_compare_at_price",
+              "value": null
+            },
+            {
+              "name": "_anniversary_gift",
+              "value": false
+            }
+          ],
+          "quantity": 1,
+          "requires_shipping": true,
+          "sku": "10445-6Z6Z-9.5",
+          "tax_code": "PC040147",
+          "taxable": true,
+          "title": "Lae‘ahi Lī - Husk",
+          "total_discount": "0.00",
+          "total_discount_set": {
+            "shop_money": {
+              "amount": "0.00",
+              "currency_code": "USD"
+            },
+            "presentment_money": {
+              "amount": "0.00",
+              "currency_code": "USD"
+            }
+          },
+          "variant_id": 39744719061091,
+          "variant_inventory_management": "shopify",
+          "variant_title": "Husk / 9.5",
+          "vendor": "OluKai",
+          "tax_lines": [
+            {
+              "channel_liable": false,
+              "price": "8.40",
+              "price_set": {
+                "shop_money": {
+                  "amount": "8.40",
+                  "currency_code": "USD"
+                },
+                "presentment_money": {
+                  "amount": "8.40",
+                  "currency_code": "USD"
+                }
+              },
+              "rate": 0.06,
+              "title": "CA STATE TAX"
+            },
+            {
+              "channel_liable": false,
+              "price": "0.35",
+              "price_set": {
+                "shop_money": {
+                  "amount": "0.35",
+                  "currency_code": "USD"
+                },
+                "presentment_money": {
+                  "amount": "0.35",
+                  "currency_code": "USD"
+                }
+              },
+              "rate": 0.0025,
+              "title": "CA COUNTY TAX"
+            },
+            {
+              "channel_liable": false,
+              "price": "1.05",
+              "price_set": {
+                "shop_money": {
+                  "amount": "1.05",
+                  "currency_code": "USD"
+                },
+                "presentment_money": {
+                  "amount": "1.05",
+                  "currency_code": "USD"
+                }
+              },
+              "rate": 0.0075,
+              "title": "CA CITY TAX"
+            },
+            {
+              "channel_liable": false,
+              "price": "0.70",
+              "price_set": {
+                "shop_money": {
+                  "amount": "0.70",
+                  "currency_code": "USD"
+                },
+                "presentment_money": {
+                  "amount": "0.70",
+                  "currency_code": "USD"
+                }
+              },
+              "rate": 0.005,
+              "title": "SAN DIEGO COUNTY DISTRICT TAX SP"
+            },
+            {
+              "channel_liable": false,
+              "price": "1.40",
+              "price_set": {
+                "shop_money": {
+                  "amount": "1.40",
+                  "currency_code": "USD"
+                },
+                "presentment_money": {
+                  "amount": "1.40",
+                  "currency_code": "USD"
+                }
+              },
+              "rate": 0.01,
+              "title": "SAN BERNARDINO CO LOCAL TAX SL"
+            }
+          ],
+          "duties": [],
+          "discount_allocations": []
+        },
+        {
+          "id": 13389408141411,
+          "admin_graphql_api_id": "gid://shopify/LineItem/13389408141411",
+          "destination_location": {
+            "id": 3128072568931,
+            "country_code": "US",
+            "province_code": "CA",
+            "name": "Ben McNertney",
+            "address1": "5160 Randlett Drive",
+            "address2": "",
+            "city": "La Mesa",
+            "zip": "91942"
+          },
+          "fulfillable_quantity": 0,
+          "fulfillment_service": "manual",
+          "fulfillment_status": "fulfilled",
+          "gift_card": false,
+          "grams": 526,
+          "name": "Wai‘alae - Dark Wood - Dark Wood / 9.5",
+          "origin_location": {
+            "id": 1058821177443,
+            "country_code": "US",
+            "province_code": "CA",
+            "name": "OluKai",
+            "address1": "15559 Flight Avenue",
+            "address2": "",
+            "city": "Chino",
+            "zip": "91710"
+          },
+          "pre_tax_price": "160.00",
+          "pre_tax_price_set": {
+            "shop_money": {
+              "amount": "160.00",
+              "currency_code": "USD"
+            },
+            "presentment_money": {
+              "amount": "160.00",
+              "currency_code": "USD"
+            }
+          },
+          "price": "160.00",
+          "price_set": {
+            "shop_money": {
+              "amount": "160.00",
+              "currency_code": "USD"
+            },
+            "presentment_money": {
+              "amount": "160.00",
+              "currency_code": "USD"
+            }
+          },
+          "product_exists": true,
+          "product_id": 6709524299875,
+          "properties": [
+            {
+              "name": "_upc",
+              "value": "883956439182"
+            },
+            {
+              "name": "_birthday_gift",
+              "value": false
+            },
+            {
+              "name": "_compare_at_price",
+              "value": null
+            },
+            {
+              "name": "_pdp",
+              "value": true
+            },
+            {
+              "name": "_anniversary_gift",
+              "value": false
+            }
+          ],
+          "quantity": 1,
+          "requires_shipping": true,
+          "sku": "10507-6363-9.5",
+          "tax_code": "PC040147",
+          "taxable": true,
+          "title": "Wai‘alae - Dark Wood",
+          "total_discount": "0.00",
+          "total_discount_set": {
+            "shop_money": {
+              "amount": "0.00",
+              "currency_code": "USD"
+            },
+            "presentment_money": {
+              "amount": "0.00",
+              "currency_code": "USD"
+            }
+          },
+          "variant_id": 39762741657699,
+          "variant_inventory_management": "shopify",
+          "variant_title": "Dark Wood / 9.5",
+          "vendor": "OluKai",
+          "tax_lines": [
+            {
+              "channel_liable": false,
+              "price": "9.60",
+              "price_set": {
+                "shop_money": {
+                  "amount": "9.60",
+                  "currency_code": "USD"
+                },
+                "presentment_money": {
+                  "amount": "9.60",
+                  "currency_code": "USD"
+                }
+              },
+              "rate": 0.06,
+              "title": "CA STATE TAX"
+            },
+            {
+              "channel_liable": false,
+              "price": "0.40",
+              "price_set": {
+                "shop_money": {
+                  "amount": "0.40",
+                  "currency_code": "USD"
+                },
+                "presentment_money": {
+                  "amount": "0.40",
+                  "currency_code": "USD"
+                }
+              },
+              "rate": 0.0025,
+              "title": "CA COUNTY TAX"
+            },
+            {
+              "channel_liable": false,
+              "price": "1.20",
+              "price_set": {
+                "shop_money": {
+                  "amount": "1.20",
+                  "currency_code": "USD"
+                },
+                "presentment_money": {
+                  "amount": "1.20",
+                  "currency_code": "USD"
+                }
+              },
+              "rate": 0.0075,
+              "title": "CA CITY TAX"
+            },
+            {
+              "channel_liable": false,
+              "price": "0.80",
+              "price_set": {
+                "shop_money": {
+                  "amount": "0.80",
+                  "currency_code": "USD"
+                },
+                "presentment_money": {
+                  "amount": "0.80",
+                  "currency_code": "USD"
+                }
+              },
+              "rate": 0.005,
+              "title": "SAN DIEGO COUNTY DISTRICT TAX SP"
+            },
+            {
+              "channel_liable": false,
+              "price": "1.60",
+              "price_set": {
+                "shop_money": {
+                  "amount": "1.60",
+                  "currency_code": "USD"
+                },
+                "presentment_money": {
+                  "amount": "1.60",
+                  "currency_code": "USD"
+                }
+              },
+              "rate": 0.01,
+              "title": "SAN BERNARDINO CO LOCAL TAX SL"
+            }
+          ],
+          "duties": [],
+          "discount_allocations": []
+        }
+      ],
+      "payment_details": {
+        "credit_card_bin": "483316",
+        "avs_result_code": "Y",
+        "cvv_result_code": null,
+        "credit_card_number": "•••• •••• •••• 6826",
+        "credit_card_company": "Visa",
+        "buyer_action_info": null
+      },
+      "payment_terms": null,
+      "refunds": [
+        {
+          "id": 902602063971,
+          "admin_graphql_api_id": "gid://shopify/Refund/902602063971",
+          "created_at": "2023-07-18T12:46:35-07:00",
+          "note": null,
+          "order_id": 5253803868259,
+          "processed_at": "2023-07-18T12:46:35-07:00",
+          "restock": false,
+          "total_duties_set": {
+            "shop_money": {
+              "amount": "0.00",
+              "currency_code": "USD"
+            },
+            "presentment_money": {
+              "amount": "0.00",
+              "currency_code": "USD"
+            }
+          },
+          "user_id": null,
+            
+          "transactions": [
+            {
+              "id": 6396019802211,
+              "admin_graphql_api_id": "gid://shopify/OrderTransaction/6396019802211",
+              "amount": "151.90",
+              "authorization": "re_3NSicjI7JUwYptJG1duCOnFa",
+              "created_at": "2023-07-18T12:46:33-07:00",
+              "currency": "USD",
+              "device_id": null,
+              "error_code": null,
+              "gateway": "shopify_payments",
+              "kind": "refund",
+              "location_id": null,
+              "message": "Transaction approved",
+              "order_id": 5253803868259,
+              "parent_id": 6383101083747,
+              "payments_refund_attributes": {
+                "status": "success",
+                "acquirer_reference_number": "24492163200000015166530"
+              },
+              "processed_at": "2023-07-18T12:46:33-07:00",
+              "receipt": {
+                "id": "re_3NSicjI7JUwYptJG1duCOnFa",
+                "amount": 15190,
+                "balance_transaction": {
+                  "id": "txn_3NSicjI7JUwYptJG1TnXS5Gn",
+                  "object": "balance_transaction",
+                  "exchange_rate": null
+                },
+                "charge": {
+                  "id": "ch_3NSicjI7JUwYptJG1K8dSp2L",
+                  "object": "charge",
+                  "amount": 34550,
+                  "application_fee": "fee_1NSickI7JUwYptJG0uLnTenZ",
+                  "balance_transaction": "txn_3NSicjI7JUwYptJG1rCrIw9r",
+                  "captured": true,
+                  "created": 1689089829,
+                  "currency": "usd",
+                  "failure_code": null,
+                  "failure_message": null,
+                  "fraud_details": {},
+                  "livemode": true,
+                  "metadata": {
+                    "email": "ben.mcnertney@outlook.com",
+                    "manual_entry": "false",
+                    "order_id": "c26957306658915.1",
+                    "order_transaction_id": "6383101083747",
+                    "payments_charge_id": "2504604090467",
+                    "shop_id": "1592295523",
+                    "shop_name": "OluKai",
+                    "transaction_fee_tax_amount": "0",
+                    "transaction_fee_total_amount": "773"
+                  },
+                  "outcome": {
+                    "network_status": "approved_by_network",
+                    "reason": null,
+                    "risk_level": "normal",
+                    "seller_message": "Payment complete.",
+                    "type": "authorized"
+                  },
+                  "paid": true,
+                  "payment_intent": "pi_3NSicjI7JUwYptJG16ZdAGd6",
+                  "payment_method": "pm_1NSicjI7JUwYptJGGe2cNrqc",
+                  "payment_method_details": {
+                    "card": {
+                      "amount_authorized": 34550,
+                      "brand": "visa",
+                      "checks": {
+                        "address_line1_check": "pass",
+                        "address_postal_code_check": "pass",
+                        "cvc_check": null
+                      },
+                      "country": "US",
+                      "description": "Visa Classic",
+                      "ds_transaction_id": null,
+                      "exp_month": 10,
+                      "exp_year": 2027,
+                      "fingerprint": "oz0CF20DTe9GSB9R",
+                      "funding": "debit",
+                      "iin": "483316",
+                      "installments": null,
+                      "issuer": "JPMorgan Chase Bank N.A. - Debit",
+                      "last4": "6826",
+                      "mandate": null,
+                      "moto": null,
+                      "network": "visa",
+                      "network_token": {
+                        "used": false
+                      },
+                      "network_transaction_id": "383192562304930",
+                      "overcapture_supported": true,
+                      "payment_account_reference": "V0010014619262674233493905427",
+                      "three_d_secure": null,
+                      "wallet": null
+                    },
+                    "type": "card"
+                  },
+                  "refunded": false,
+                  "source": null,
+                  "status": "succeeded",
+                  "mit_params": {
+                    "network_transaction_id": "383192562304930"
+                  }
+                },
+                "object": "refund",
+                "reason": null,
+                "status": "succeeded",
+                "created": 1689709594,
+                "currency": "usd",
+                "metadata": {
+                  "order_transaction_id": "6396019802211",
+                  "payments_refund_id": "112642523235"
+                },
+                "payment_method_details": {
+                  "card": {
+                    "acquirer_reference_number": null,
+                    "acquirer_reference_number_status": "pending"
+                  },
+                  "type": "card"
+                },
+                "mit_params": {}
+              },
+              "source_name": "5331155",
+              "status": "success",
+              "test": false,
+              "user_id": null,
+              "payment_details": {
+                "credit_card_bin": "483316",
+                "avs_result_code": "Y",
+                "cvv_result_code": null,
+                "credit_card_number": "•••• •••• •••• 6826",
+                "credit_card_company": "Visa",
+                "buyer_action_info": null
+              }
+            }
+          ],
+          "refund_line_items": [
+            {
+              "id": 700408856675,
+              "line_item_id": 13389408108643,
+              "location_id": null,
+              "quantity": 1,
+              "restock_type": "no_restock",
+              "subtotal": 140,
+              "subtotal_set": {
+                "shop_money": {
+                  "amount": "140.00",
+                  "currency_code": "USD"
+                },
+                "presentment_money": {
+                  "amount": "140.00",
+                  "currency_code": "USD"
+                }
+              },
+              "total_tax": 11.9,
+              "total_tax_set": {
+                "shop_money": {
+                  "amount": "11.90",
+                  "currency_code": "USD"
+                },
+                "presentment_money": {
+                  "amount": "11.90",
+                  "currency_code": "USD"
+                }
+              },
+              "line_item": {
+                "id": 13389408108643,
+                "admin_graphql_api_id": "gid://shopify/LineItem/13389408108643",
+                "destination_location": {
+                  "id": 3128072568931,
+                  "country_code": "US",
+                  "province_code": "CA",
+                  "name": "Ben McNertney",
+                  "address1": "5160 Randlett Drive",
+                  "address2": "",
+                  "city": "La Mesa",
+                  "zip": "91942"
+                },
+                "fulfillable_quantity": 0,
+                "fulfillment_service": "manual",
+                "fulfillment_status": "fulfilled",
+                "gift_card": false,
+                "grams": 816,
+                "name": "Lae‘ahi Lī - Husk - Husk / 9.5",
+                "origin_location": {
+                  "id": 1058821177443,
+                  "country_code": "US",
+                  "province_code": "CA",
+                  "name": "OluKai",
+                  "address1": "15559 Flight Avenue",
+                  "address2": "",
+                  "city": "Chino",
+                  "zip": "91710"
+                },
+                "pre_tax_price": "140.00",
+                "pre_tax_price_set": {
+                  "shop_money": {
+                    "amount": "140.00",
+                    "currency_code": "USD"
+                  },
+                  "presentment_money": {
+                    "amount": "140.00",
+                    "currency_code": "USD"
+                  }
+                },
+                "price": "140.00",
+                "price_set": {
+                  "shop_money": {
+                    "amount": "140.00",
+                    "currency_code": "USD"
+                  },
+                  "presentment_money": {
+                    "amount": "140.00",
+                    "currency_code": "USD"
+                  }
+                },
+                "product_exists": true,
+                "product_id": 6702203043939,
+                "properties": [
+                  {
+                    "name": "_upc",
+                    "value": "883956441826"
+                  },
+                  {
+                    "name": "_quick_add",
+                    "value": true
+                  },
+                  {
+                    "name": "_birthday_gift",
+                    "value": false
+                  },
+                  {
+                    "name": "_compare_at_price",
+                    "value": null
+                  },
+                  {
+                    "name": "_anniversary_gift",
+                    "value": false
+                  }
+                ],
+                "quantity": 1,
+                "requires_shipping": true,
+                "sku": "10445-6Z6Z-9.5",
+                "tax_code": "PC040147",
+                "taxable": true,
+                "title": "Lae‘ahi Lī - Husk",
+                "total_discount": "0.00",
+                "total_discount_set": {
+                  "shop_money": {
+                    "amount": "0.00",
+                    "currency_code": "USD"
+                  },
+                  "presentment_money": {
+                    "amount": "0.00",
+                    "currency_code": "USD"
+                  }
+                },
+                "variant_id": 39744719061091,
+                "variant_inventory_management": "shopify",
+                "variant_title": "Husk / 9.5",
+                "vendor": "OluKai",
+                "tax_lines": [
+                  {
+                    "channel_liable": false,
+                    "price": "8.40",
+                    "price_set": {
+                      "shop_money": {
+                        "amount": "8.40",
+                        "currency_code": "USD"
+                      },
+                      "presentment_money": {
+                        "amount": "8.40",
+                        "currency_code": "USD"
+                      }
+                    },
+                    "rate": 0.06,
+                    "title": "CA STATE TAX"
+                  },
+                  {
+                    "channel_liable": false,
+                    "price": "0.35",
+                    "price_set": {
+                      "shop_money": {
+                        "amount": "0.35",
+                        "currency_code": "USD"
+                      },
+                      "presentment_money": {
+                        "amount": "0.35",
+                        "currency_code": "USD"
+                      }
+                    },
+                    "rate": 0.0025,
+                    "title": "CA COUNTY TAX"
+                  },
+                  {
+                    "channel_liable": false,
+                    "price": "1.05",
+                    "price_set": {
+                      "shop_money": {
+                        "amount": "1.05",
+                        "currency_code": "USD"
+                      },
+                      "presentment_money": {
+                        "amount": "1.05",
+                        "currency_code": "USD"
+                      }
+                    },
+                    "rate": 0.0075,
+                    "title": "CA CITY TAX"
+                  },
+                  {
+                    "channel_liable": false,
+                    "price": "0.70",
+                    "price_set": {
+                      "shop_money": {
+                        "amount": "0.70",
+                        "currency_code": "USD"
+                      },
+                      "presentment_money": {
+                        "amount": "0.70",
+                        "currency_code": "USD"
+                      }
+                    },
+                    "rate": 0.005,
+                    "title": "SAN DIEGO COUNTY DISTRICT TAX SP"
+                  },
+                  {
+                    "channel_liable": false,
+                    "price": "1.40",
+                    "price_set": {
+                      "shop_money": {
+                        "amount": "1.40",
+                        "currency_code": "USD"
+                      },
+                      "presentment_money": {
+                        "amount": "1.40",
+                        "currency_code": "USD"
+                      }
+                    },
+                    "rate": 0.01,
+                    "title": "SAN BERNARDINO CO LOCAL TAX SL"
+                  }
+                ],
+                "duties": [],
+                "discount_allocations": []
+              }
+            }
+          ],
+          "duties": []
+        },
+        {
+          "id": 902602096739,
+          "admin_graphql_api_id": "gid://shopify/Refund/902602096739",
+          "created_at": "2023-07-18T12:46:38-07:00",
+          "note": null,
+          "order_id": 5253803868259,
+          "processed_at": "2023-07-18T12:46:38-07:00",
+          "restock": false,
+          "total_duties_set": {
+            "shop_money": {
+              "amount": "0.00",
+              "currency_code": "USD"
+            },
+            "presentment_money": {
+              "amount": "0.00",
+              "currency_code": "USD"
+            }
+          },
+          "user_id": null,
+          "order_adjustments": [
+            {
+              "id": 228849877091,
+              "amount": "173.60",
+              "amount_set": {
+                "shop_money": {
+                  "amount": "173.60",
+                  "currency_code": "USD"
+                },
+                "presentment_money": {
+                  "amount": "173.60",
+                  "currency_code": "USD"
+                }
+              },
+              "kind": "refund_discrepancy",
+              "order_id": 5253803868259,
+              "reason": "Refund discrepancy",
+              "refund_id": 902602096739,
+              "tax_amount": "0.00",
+              "tax_amount_set": {
+                "shop_money": {
+                  "amount": "0.00",
+                  "currency_code": "USD"
+                },
+                "presentment_money": {
+                  "amount": "0.00",
+                  "currency_code": "USD"
+                }
+              }
+            }
+          ],
+          "transactions": [],
+          "refund_line_items": [
+            {
+              "id": 700408889443,
+              "line_item_id": 13389408141411,
+              "location_id": null,
+              "quantity": 1,
+              "restock_type": "no_restock",
+              "subtotal": 160,
+              "subtotal_set": {
+                "shop_money": {
+                  "amount": "160.00",
+                  "currency_code": "USD"
+                },
+                "presentment_money": {
+                  "amount": "160.00",
+                  "currency_code": "USD"
+                }
+              },
+              "total_tax": 13.6,
+              "total_tax_set": {
+                "shop_money": {
+                  "amount": "13.60",
+                  "currency_code": "USD"
+                },
+                "presentment_money": {
+                  "amount": "13.60",
+                  "currency_code": "USD"
+                }
+              },
+              "line_item": {
+                "id": 13389408141411,
+                "admin_graphql_api_id": "gid://shopify/LineItem/13389408141411",
+                "destination_location": {
+                  "id": 3128072568931,
+                  "country_code": "US",
+                  "province_code": "CA",
+                  "name": "Ben McNertney",
+                  "address1": "5160 Randlett Drive",
+                  "address2": "",
+                  "city": "La Mesa",
+                  "zip": "91942"
+                },
+                "fulfillable_quantity": 0,
+                "fulfillment_service": "manual",
+                "fulfillment_status": "fulfilled",
+                "gift_card": false,
+                "grams": 526,
+                "name": "Wai‘alae - Dark Wood - Dark Wood / 9.5",
+                "origin_location": {
+                  "id": 1058821177443,
+                  "country_code": "US",
+                  "province_code": "CA",
+                  "name": "OluKai",
+                  "address1": "15559 Flight Avenue",
+                  "address2": "",
+                  "city": "Chino",
+                  "zip": "91710"
+                },
+                "pre_tax_price": "160.00",
+                "pre_tax_price_set": {
+                  "shop_money": {
+                    "amount": "160.00",
+                    "currency_code": "USD"
+                  },
+                  "presentment_money": {
+                    "amount": "160.00",
+                    "currency_code": "USD"
+                  }
+                },
+                "price": "160.00",
+                "price_set": {
+                  "shop_money": {
+                    "amount": "160.00",
+                    "currency_code": "USD"
+                  },
+                  "presentment_money": {
+                    "amount": "160.00",
+                    "currency_code": "USD"
+                  }
+                },
+                "product_exists": true,
+                "product_id": 6709524299875,
+                "properties": [
+                  {
+                    "name": "_upc",
+                    "value": "883956439182"
+                  },
+                  {
+                    "name": "_birthday_gift",
+                    "value": false
+                  },
+                  {
+                    "name": "_compare_at_price",
+                    "value": null
+                  },
+                  {
+                    "name": "_pdp",
+                    "value": true
+                  },
+                  {
+                    "name": "_anniversary_gift",
+                    "value": false
+                  }
+                ],
+                "quantity": 1,
+                "requires_shipping": true,
+                "sku": "10507-6363-9.5",
+                "tax_code": "PC040147",
+                "taxable": true,
+                "title": "Wai‘alae - Dark Wood",
+                "total_discount": "0.00",
+                "total_discount_set": {
+                  "shop_money": {
+                    "amount": "0.00",
+                    "currency_code": "USD"
+                  },
+                  "presentment_money": {
+                    "amount": "0.00",
+                    "currency_code": "USD"
+                  }
+                },
+                "variant_id": 39762741657699,
+                "variant_inventory_management": "shopify",
+                "variant_title": "Dark Wood / 9.5",
+                "vendor": "OluKai",
+                "tax_lines": [
+                  {
+                    "channel_liable": false,
+                    "price": "9.60",
+                    "price_set": {
+                      "shop_money": {
+                        "amount": "9.60",
+                        "currency_code": "USD"
+                      },
+                      "presentment_money": {
+                        "amount": "9.60",
+                        "currency_code": "USD"
+                      }
+                    },
+                    "rate": 0.06,
+                    "title": "CA STATE TAX"
+                  },
+                  {
+                    "channel_liable": false,
+                    "price": "0.40",
+                    "price_set": {
+                      "shop_money": {
+                        "amount": "0.40",
+                        "currency_code": "USD"
+                      },
+                      "presentment_money": {
+                        "amount": "0.40",
+                        "currency_code": "USD"
+                      }
+                    },
+                    "rate": 0.0025,
+                    "title": "CA COUNTY TAX"
+                  },
+                  {
+                    "channel_liable": false,
+                    "price": "1.20",
+                    "price_set": {
+                      "shop_money": {
+                        "amount": "1.20",
+                        "currency_code": "USD"
+                      },
+                      "presentment_money": {
+                        "amount": "1.20",
+                        "currency_code": "USD"
+                      }
+                    },
+                    "rate": 0.0075,
+                    "title": "CA CITY TAX"
+                  },
+                  {
+                    "channel_liable": false,
+                    "price": "0.80",
+                    "price_set": {
+                      "shop_money": {
+                        "amount": "0.80",
+                        "currency_code": "USD"
+                      },
+                      "presentment_money": {
+                        "amount": "0.80",
+                        "currency_code": "USD"
+                      }
+                    },
+                    "rate": 0.005,
+                    "title": "SAN DIEGO COUNTY DISTRICT TAX SP"
+                  },
+                  {
+                    "channel_liable": false,
+                    "price": "1.60",
+                    "price_set": {
+                      "shop_money": {
+                        "amount": "1.60",
+                        "currency_code": "USD"
+                      },
+                      "presentment_money": {
+                        "amount": "1.60",
+                        "currency_code": "USD"
+                      }
+                    },
+                    "rate": 0.01,
+                    "title": "SAN BERNARDINO CO LOCAL TAX SL"
+                  }
+                ],
+                "duties": [],
+                "discount_allocations": []
+              }
+            }
+          ],
+          "duties": []
+        }
+      ],
+      "shipping_address": {
+        "first_name": "Ben",
+        "address1": "5160 Randlett Drive",
+        "phone": "(858) 761-5419",
+        "city": "La Mesa",
+        "zip": "91942",
+        "province": "California",
+        "country": "United States",
+        "last_name": "McNertney",
+        "address2": "",
+        "company": "",
+        "latitude": null,
+        "longitude": null,
+        "name": "Ben McNertney",
+        "country_code": "US",
+        "province_code": "CA"
+      },
+      "shipping_lines": [
+        {
+          "id": 4326937854051,
+          "carrier_identifier": null,
+          "code": "Expedited",
+          "delivery_category": null,
+          "discounted_price": "20.00",
+          "discounted_price_set": {
+            "shop_money": {
+              "amount": "20.00",
+              "currency_code": "USD"
+            },
+            "presentment_money": {
+              "amount": "20.00",
+              "currency_code": "USD"
+            }
+          },
+          "phone": null,
+          "price": "20.00",
+          "price_set": {
+            "shop_money": {
+              "amount": "20.00",
+              "currency_code": "USD"
+            },
+            "presentment_money": {
+              "amount": "20.00",
+              "currency_code": "USD"
+            }
+          },
+          "requested_fulfillment_service_id": null,
+          "source": "shopify",
+          "title": "Expedited",
+          "tax_lines": [
+            {
+              "channel_liable": false,
+              "price": "0.00",
+              "price_set": {
+                "shop_money": {
+                  "amount": "0.00",
+                  "currency_code": "USD"
+                },
+                "presentment_money": {
+                  "amount": "0.00",
+                  "currency_code": "USD"
+                }
+              },
+              "rate": 0.06,
+              "title": "CA STATE TAX"
+            },
+            {
+              "channel_liable": false,
+              "price": "0.00",
+              "price_set": {
+                "shop_money": {
+                  "amount": "0.00",
+                  "currency_code": "USD"
+                },
+                "presentment_money": {
+                  "amount": "0.00",
+                  "currency_code": "USD"
+                }
+              },
+              "rate": 0.0025,
+              "title": "CA COUNTY TAX"
+            },
+            {
+              "channel_liable": false,
+              "price": "0.00",
+              "price_set": {
+                "shop_money": {
+                  "amount": "0.00",
+                  "currency_code": "USD"
+                },
+                "presentment_money": {
+                  "amount": "0.00",
+                  "currency_code": "USD"
+                }
+              },
+              "rate": 0.0075,
+              "title": "CA CITY TAX"
+            },
+            {
+              "channel_liable": false,
+              "price": "0.00",
+              "price_set": {
+                "shop_money": {
+                  "amount": "0.00",
+                  "currency_code": "USD"
+                },
+                "presentment_money": {
+                  "amount": "0.00",
+                  "currency_code": "USD"
+                }
+              },
+              "rate": 0.005,
+              "title": "SAN DIEGO COUNTY DISTRICT TAX SP"
+            },
+            {
+              "channel_liable": false,
+              "price": "0.00",
+              "price_set": {
+                "shop_money": {
+                  "amount": "0.00",
+                  "currency_code": "USD"
+                },
+                "presentment_money": {
+                  "amount": "0.00",
+                  "currency_code": "USD"
+                }
+              },
+              "rate": 0.01,
+              "title": "SAN BERNARDINO CO LOCAL TAX SL"
+            }
+          ],
+          "discount_allocations": []
+        }
+      ]
+    }
+  }

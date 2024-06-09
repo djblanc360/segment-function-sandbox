@@ -1,0 +1,42 @@
+WITH table AS(SELECT  
+purchase_id, 
+order_customerJourneySummary_lastVisit_landingPage AS location, 
+CONCAT('/',IFNULL(REGEXP_EXTRACT(order_customerJourneySummary_lastVisit_landingPage, r'(?:[a-zA-Z]+://)?(?:[a-zA-Z0-9-.]+)/{1}([a-zA-Z0-9-./]+)'),'')) as path,
+order_customerJourneySummary_lastVisit_referrerUrl AS referrer, 
+order_customerJourneySummary_lastVisit_source AS source, 
+order_customerJourneySummary_lastVisit_utmParameters_campaign AS utm_campaign, 
+order_customerJourneySummary_lastVisit_utmParameters_content AS utm_content, 
+order_customerJourneySummary_lastVisit_utmParameters_medium AS utm_medium, 
+order_customerJourneySummary_lastVisit_utmParameters_source AS utm_source, 
+order_customerJourneySummary_lastVisit_utmParameters_term AS utm_term
+FROM `deft-beanbag-258201.04_Analyses.shopify_unattributable_orders_traffic_sources` 
+QUALIFY
+ROW_NUMBER() 
+            OVER(
+                PARTITION BY purchase_id
+                ORDER BY order_customerJourneySummary_lastVisit_occurredAt DESC) = 1)
+
+SELECT 
+purchase_id, 
+IF(location IN ('nan','None'), NULL,location) AS location, 
+IF(path IN ('nan','None'), NULL,path) AS path,
+IF(referrer IN ('nan','None'), NULL,referrer) AS referrer, 
+IF(source IN ('nan','None'), NULL,source) AS source, 
+IF(utm_campaign IN ('nan','None'), NULL,utm_campaign) AS utm_campaign, 
+IF(utm_content IN ('nan','None'), NULL,utm_content) AS utm_content, 
+IF(utm_medium IN ('nan','None'), NULL,utm_medium) AS utm_medium, 
+IF(utm_source IN ('nan','None'), NULL,utm_source) AS utm_source, 
+IF(utm_term IN ('nan','None'), NULL,utm_term) AS utm_term,
+`00_Functions.traffic_source`( 
+    IF(location IN ('nan','None'), NULL, location) , 
+    NULL, #gclid STRING, 
+    IF(path IN ('nan','None'), NULL,path)  , 
+    IF(utm_medium IN ('nan','None'), NULL,utm_medium)  , 
+    IF(referrer IN ('nan','None'), NULL,referrer)  , 
+    IF(utm_source IN ('nan','None'), NULL,utm_source)  , 
+    IF(utm_campaign IN ('nan','None'), NULL,utm_campaign ) , 
+    IF(utm_term IN ('nan','None'), NULL,utm_term)  , 
+    IF(utm_content IN ('nan','None'), NULL,utm_content)  , 
+    IF(source IN ('nan','None'), NULL,source) 
+    ) AS traffic_source, 
+FROM table

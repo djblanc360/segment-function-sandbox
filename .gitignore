@@ -1,0 +1,17 @@
+.env
+.env*
+REAFME-template.md
+
+# Exclude all files inside any of this folder
+**/destination-payloads/*
+**/source-payloads/*
+**/delivery-logs/*
+**/json-sources/*
+**/terminal-output/*
+
+# Include the  folders themselves
+!**/destination-payloads/
+!**/source-payloads/
+!**/delivery-logs/
+!**/json-source/
+!**/terminal-output/
